@@ -78,6 +78,7 @@ def rolling_sum_race(df, days):
 
     bcr.bar_chart_race(
         df=df,
+        title=f'Messages sent past {days} days',
         filename='rolling_message_count.mp4',
         n_bars=9,
         filter_column_colors=True)
@@ -98,6 +99,7 @@ def total_count_race(df):
 
     bcr.bar_chart_race(
         df=df,
+        title='Total Messages Sent',
         filename='total_message_count.mp4',
         n_bars=9,
         filter_column_colors=True)

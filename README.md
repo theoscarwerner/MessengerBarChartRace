@@ -1,5 +1,5 @@
 # Bar chart race for Messenger
-
+## Installation Stuff
 You need pandas and bar_chart_race python modules
 ```
 pip install pandas bar_chart_race
@@ -8,6 +8,14 @@ You also need ffmpeg. You can install it with brew with
 ```
 brew install ffmpeg
 ```
+
+## Download your messenger data
+
+Go to facebook.com. Go to Settings -> Your Facebook Information -> Download your information.
+
+Choose JSON as the format, "All time" as the date range, and deselect all except messages. When the download is ready, extract the data and place it in the root of the repository.
+
+## Creating the Bar Chart Race
 
 You can create two different types of bar chart races. One with the total amount of messages of all time:
 ```
