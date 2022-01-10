@@ -13,7 +13,9 @@ brew install ffmpeg
 
 Go to facebook.com. Go to Settings -> Your Facebook Information -> Download your information.
 
-Choose JSON as the format, "All time" as the date range, and deselect all except messages. When the download is ready, extract the data and place it in the root of the repository.
+Choose JSON as the format, "All time" as the date range, and deselect all except messages. I also suggest choosing low media quality, unless you want a bunch of high res images and videos on your computer.
+
+When the download is ready, extract the data and place it in the root of the repository.
 
 ## Creating the Bar Chart Race
 
