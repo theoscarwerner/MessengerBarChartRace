@@ -1,4 +1,7 @@
 # Bar chart race for Messenger
+
+Creates a bar chart race of amount of messages sent on messenger.
+
 ## Installation Stuff
 You need pandas and bar_chart_race python modules
 ```
